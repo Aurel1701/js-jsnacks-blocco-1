@@ -11,4 +11,4 @@ if (first_number > second_number) {
     
 } else if(first_number < second_number) {
     console.log(second_number)
-}
+} 
