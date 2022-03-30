@@ -8,14 +8,14 @@ console.log(second_add);
 
 //let parola;
 
-if (first_add < second_add) {
-    document.querySelector('.risultato').innerHTML = first_add
-    document.querySelector('.risultato').innerHTML = second_add
+if (first_add > second_add) {
+    document.querySelector('.risultato').insertAdjacentHTML("afterend", first_add);
+    document.querySelector('.risultato-2').insertAdjacentHTML("afterend", second_add);
     
 
 } else if (first_add < second_add) {
-    document.querySelector('.risultato').innerHTML = risultato
-    document.querySelector('.risultato').innerHTML = second_add
+    document.querySelector('.risultato').insertAdjacentHTML("afterend", first_add);
+    document.querySelector('.risultato-2').insertAdjacentHTML("afterend", second_add);
     
 
 }
