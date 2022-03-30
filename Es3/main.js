@@ -4,7 +4,7 @@
 
 
 for (let i = 0; i < 11; i++) {
-    let numbers = Number(prompt ('digita un numero'))
+  let numbers = Number(prompt ('digita un numero'))
   numbers = numbers + i;
   console.log(numbers);
 }
