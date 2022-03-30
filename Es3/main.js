@@ -10,7 +10,7 @@ for (let i = 0; i < 10; i++) {
   somma = numbers + somma;
   
 }
-console.log(numbers);
+console.log(somma);
 
 
 
